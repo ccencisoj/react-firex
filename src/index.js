@@ -1,6 +1,5 @@
-import React from 'react'
-import styles from './styles.module.css'
+import connect from './connect';
+import Controller from './Controller';
+import PersistedController from './PersistedController';
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
+export {Controller, PersistedController, connect};
